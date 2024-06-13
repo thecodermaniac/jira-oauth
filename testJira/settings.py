@@ -43,8 +43,8 @@ INSTALLED_APPS = [
 
 
 # OAuth settings
-JIRA_CLIENT_ID = 'ZBP1aEXDKA7LqRxtV5RzNCKRw7UENwqu'
-JIRA_CLIENT_SECRET = 'ATOAocHK7bEvkRpk1VbfNnlITUfp9PovHuJhmEEfgaI5FvgtZ3G0mxtV_7iId5tkcaUi40275809'
+JIRA_CLIENT_ID = 'jira client id'
+JIRA_CLIENT_SECRET = 'jira client secret'
 JIRA_REDIRECT_URI = 'https://e385-43-231-48-12.ngrok-free.app/oauth/callback/'
 JIRA_AUTHORIZATION_BASE_URL = 'https://auth.atlassian.com/authorize?audience=api.atlassian.com&client_id=ZBP1aEXDKA7LqRxtV5RzNCKRw7UENwqu&scope=read%3Ame%20read%3Aaccount&redirect_uri=https%3A%2F%2Fe385-43-231-48-12.ngrok-free.app%2Foauth%2Fcallback%2F&state=${YOUR_USER_BOUND_VALUE}&response_type=code&prompt=consent'
 JIRA_TOKEN_URL = 'https://auth.atlassian.com/oauth/token'
