@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'myapp'
+    'myapp',
+    'slackintegration',
 ]
 
 
@@ -134,3 +135,11 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+#Slack Work
+
+SLACK_TOKEN= 'xoxb-7283837050914-7269280330519-zrA85lAw6pyrC90gVsFt7EMp'
+# settings.py
+SLACK_CLIENT_ID = '7283837050914.7296504388641'
+SLACK_CLIENT_SECRET = 'c69b57c120b9ec5ec76acc40c76505c4'
+SLACK_REDIRECT_URI = 'https://127.0.0.1:8000/slack/oauth/callback/'
