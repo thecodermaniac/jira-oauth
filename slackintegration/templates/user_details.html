@@ -1,0 +1,18 @@
+<!-- slackintegration/templates/slackintegration/user_details.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Details</title>
+</head>
+<body>
+    <h1>User Details</h1>
+    {% if user %}
+        <p><strong>Name:</strong> {{ user.profile.real_name }}</p>
+        <p><strong>Email:</strong> {{ user.profile.email }}</p>
+        <p><strong>Username:</strong> {{ user.name }}</p>
+        <img src="{{ user.profile.image_192 }}" alt="User Profile Image">
+    {% else %}
+        <p>{{ error }}</p>
+    {% endif %}
+</body>
+</html>
